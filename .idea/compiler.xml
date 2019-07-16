@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="server-auth" />
+        <module name="server-hi" />
+        <module name="server-hj" />
+        <module name="server-openfeign" />
+        <module name="server-ribbon" />
+        <module name="springCloudDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="server-feign" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="server-auth" options="-parameters" />
+      <module name="server-feign" options="-parameters" />
+      <module name="server-hi" options="-parameters" />
+      <module name="server-hj" options="-parameters" />
+      <module name="server-openfeign" options="-parameters" />
+      <module name="server-ribbon" options="-parameters" />
+    </option>
+  </component>
+</project>
